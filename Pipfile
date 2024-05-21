@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "==6.5.7"
+rise = "*"
+kaleido = "*"
+jupyter-contrib-nbextensions = "*"
+plotly = "*"
+pandas = "*"
+numpy = "*"
+pycircleci = "*"
+requests-ratelimiter = "*"
+tqdm = "*"
+google-re2 = "*"
+jsonlines = "*"
+ipywidgets = "*"
+cachetools = "*"
+datasketch = "*"
+sortedcontainers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.0"
